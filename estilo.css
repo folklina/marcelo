@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(71, 218, 255);
+    text-align: center;
+}
+
+#mario {
+    width: 250px;
+    text-align: center;
+}
+div{
+    background-color: rgb(15, 15, 15, 0.4);
+    width: 260px;
+    border: none;
+    text-align: center;
+}
+    
+#logar{
+    background-color: rgb(129, 218, 148);
+    width: 220px;
+    height: 30px;
+}
+    
+#aa{
+    width: 220px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#aaa{
+    width: 227px;
+    height: 38px;
+    margin-bottom: 5px;
+}
+#botaoverde{
+    background-color: rgb(88, 238, 95);
+    width: 230px;
+    height: 34px;   
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+}
+    
+#botaovermelho{
+    background-color: red;
+    width: 230px;
+    height: 34px;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+    
+#link1{
+    color: white;
+    margin-left: 45px;
+    font-size: small;
+    text-decoration: none;
+    
+}
+    
+#link2{
+    color: white;
+    margin-right: 45px;
+    font-size: small;
+    text-decoration: none;
+}
+  
+#tabela{   
+    border: none;
+    color: white;
+    
+}
+    
+ #nana{
+    margin-bottom: 34;
+    
+}
+    
+tem menu de contexto
