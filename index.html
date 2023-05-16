@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Clientes cadastrados</title>
+</head>
+<body>
+   
+    <h1>Clientes cadastrados</h1>
+    <table>
+        <div>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>E-mail</th>
+        </tr>
+    </div>
+        <tr> 
+            <td>Ana Regina</td>
+            <td>29</td>
+            <td>Curitiba</td>
+            <td id="aaa">Paraná</td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Fernanda Silva</td>
+            <td>42</td>
+            <td>Joinville</td>
+            <td id="aaa">Santa Catarina</td>
+            <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Ferreira</td>
+            <td>70</td>
+            <td>Curitiba</td>
+            <td id="aaa">Paraná</td>
+            <td>rodrigo@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Cadastro novo cliente:</legend>
+            <label for="">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder=""/>
+            <br>
+            <label for="">Idade:</label>
+            <input type="idade" name="idade" id="idade" placeholder=""/>
+            <br>
+            <label for="">Cidade:</label>
+            <input type="cidade" name="cidade" id="cidade" placeholder=""/>
+            <br>
+                <label for="Estado">Estado:</label>
+                <select name="Estado" id="aaa">
+                    <option value="Paraná" id="aa">Paraná</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                </select>
+                <br>
+            <label for="">Email:</label>
+            <input type="email" name="email" id="email" placeholder=""/>
+           <br>
+           <br>
+           <input id="botaovermelho" type="reset" value="Cancelar"/>
+           <input id="botaoverde" type="submit" value="Salvar"/>
+        </form>
+        </fieldset>
+  
+        </body>
+</html>
+
